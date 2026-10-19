@@ -30,6 +30,7 @@ pytest tests
 - 8,000 input orders -> ~5,300 kept after exclusions and rules
 - XML export and re-import give identical row counts
 - Word-boundary regex avoids false positives (e.g. `STRAIGHT`, `MISALIGNMENT SHEET`)
+-    ![Summary](summary.png)
 
 ## Key learnings
 - Using `\b` word boundaries in regex instead of plain `LIKE '%TEXT%'` removes many false positives.
